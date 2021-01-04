@@ -1,0 +1,36 @@
+#modal-submit {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-submit-content {
+    margin: auto;   
+    background-color: azure;
+    width: 35%;
+    border: 0.5px solid azure;
+    border-radius: 12px;
+}
+
+#modal-submit
+.line {
+    border: 1px solid lightgray;
+}
+
+#modal-submit
+.line-top {
+    margin-top: 60px;
+}
+
+#modal-submit
+.btn {
+    width: auto;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}

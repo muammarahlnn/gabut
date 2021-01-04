@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.bg {
+    background-image: url('img/dark-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/*== top content ===================*/
+.top-content {
+    padding-bottom: 30vh;
+    text-align: center;
+}
+.top-content
+.display-3 {
+    margin-top: 15vh;
+}
+
+.greet {
+    color: white;
+    text-shadow:
+       3px  3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+}
+
+.greet-2 {
+    font-weight: bolder;
+}
+
+.top-content
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow:
+       2px  2px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+}
+
+.top-content
+hr {
+    margin: 0 auto;
+    border-color: white;
+    width: 120px;
+    border-width: 5px;
+}
+.top-content
+.txt2 {
+    margin-bottom: 50px;
+}
+
+.top-content
+.button {
+    color: lightgray;
+    font-weight: bold;
+    border: 1px solid rgb(209, 219, 217);
+    border-radius: 15px;
+    padding: 5px 25px;
+    box-shadow: 0 6px rgb(190, 196, 196);
+    text-decoration: none;
+    margin-top: 100px;
+    
+}
+
+.top-content
+.button:active {
+    position: relative;
+    box-shadow: none;
+    top: 6px;
+}
+
+
+/*== content ===================*/
+.container-content {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30vh;
+}
+
+.carousel-text {
+    font-family: Consolas, Helvetica, sans-serif;
+    text-shadow:
+       3px  3px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+}
+
+.content-title {
+    margin-bottom: 2.5vh;
+    font-weight: bolder;
+    color: black;
+    text-shadow:
+       3px  3px 0 white,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+}
+
+.games {
+    margin-top: 5em;
+}
+.programs {
+    margin-top: 5em;
+}
+
+/*== carousel ===================*/
+#carousel-games,
+#carousel-programs {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.carousel-item {
+    height: 32rem;
+    color: white;
+    position: relative;   
+}
+.carousel-text {
+    display: none;
+}
+
+.carousel-item
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-link {
+    color: white;
+    display: block;
+    position: relative;
+    padding: 16rem 25% 14rem 25%;
+    z-index: 2;
+}
+
+/* background carousel games */
+.content-games:nth-child(1)
+> .overlay-image {
+    background-image: url('img/bg-games1.jpg');
+}
+.content-games:nth-child(2)
+> .overlay-image {
+    background-image: url('img/bg-games2.jpg');
+}
+.content-games:nth-child(3)
+> .overlay-image {
+    background-image: url('img/bg-games3.jpg');
+}
+
+/* background carousel program */
+.content-programs:nth-child(1)
+> .overlay-image {
+    background-image: url('img/newYear-carousel.jpg');
+}
+.content-programs:nth-child(2)
+> .overlay-image {
+    background-image: url('img/birthday-carousel.jpg');
+}
+.content-programs:nth-child(3)
+> .overlay-image {
+    background-image: url('img/bg-games2.jpg');
+}
+
+
+/*== footer ===================*/
+.footer {
+    padding: 20px 0;
+}
+
+.footer
+.reachMe {
+    margin: 0 auto;
+}
+
+.footer
+.reachMe
+.icon 
+i{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.footer
+hr {
+    margin: 1em auto;
+    border-color: white;
+    width: 500px;
+    border-width: 2px;
+}

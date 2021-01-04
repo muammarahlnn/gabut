@@ -1,0 +1,82 @@
+body {
+    background-color: whitesmoke;
+}
+
+#content {
+    margin: 100px auto;
+    width: 60%;
+}
+
+/*------- box -------*/
+.box {
+    height: 65px;
+    width: 65px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    padding: 18px;
+    color: white;
+
+}
+
+.box-red {
+    background-color: red;
+}
+.box-green {
+    background-color: green;
+}
+.box-blue {
+    background-color: blue;
+}
+
+/* btn ---------------*/
+.btn {
+    width: 75px;
+    margin-right: 5px;
+}
+
+/* text inside button */
+.num {
+    width: 75px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+
+/*------- range -------*/
+input[type=range] {
+    width: 510px;
+}
+
+/*------- button submit -------*/
+.button {
+    background-color: transparent;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 15px;
+    padding: 5px 25px;
+    box-shadow: 0 6px rgb(27, 27, 27);
+    display: inline-block;
+    margin-top: 25px;
+}
+.button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.button:active {
+    position: relative;
+    box-shadow: none;
+    top: 6px;
+}
+
+.txt-nyawa {
+    margin-top: 35px;
+    font-size: 30px;
+}

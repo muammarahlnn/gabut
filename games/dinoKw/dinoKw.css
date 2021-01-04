@@ -1,0 +1,108 @@
+body {
+    background-color: whitesmoke;
+}
+
+.content {
+    height: 100vh;
+}
+
+.game {
+    width: 700px;
+    height: 300px;
+    margin: 10vh auto;
+    border: 5px solid black;
+}
+
+.character {
+    width: 30px;
+    height: 70px;
+    background-color: red;
+    position: relative;
+    top: 220px; /* 300-(70+5*2)  */
+}
+
+.character-jump {
+    animation: jump 0.5s;
+}
+
+.character-slide {
+    animation: slide 1s;
+}
+
+@keyframes jump {
+    0% {
+        top: 220px;
+    } 
+    30% {
+        top: 150px;
+    } 
+    70% {
+        top: 150px;
+    } 
+    100% {
+        top: 220px;
+    }
+
+}
+
+@keyframes slide {
+    0% {
+        width: 30px;
+        height: 70px;
+    } 
+    30% {
+        width: 70px;
+        height: 30px;
+        top: 260px;
+    } 
+    70% {
+        width: 70px;
+        height: 30px;
+        top: 260px;
+    } 
+    100% {
+        width: 30px;
+        height: 70px;
+    }
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    position: relative;
+    top: 190px; /* 300-(30+5*2+70)  */
+    left: 660px; /* 700-(30+5*2)  */
+}
+.block-moving {
+    animation: block 1.2s infinite linear;
+
+}
+.block-stay {
+    animation: block-stay 1s infinite ;
+}
+
+@keyframes block {
+    0% {
+        left: 660px;
+    }
+    100% {
+        left: -200px;
+    }
+}
+
+@keyframes block-stay {
+    0% {
+        top: 190px;
+        /* left: 630px; */
+    }
+    30% {
+        top: 230px;
+    }
+    70% {
+        top: 230px;
+    }
+    100% {
+        top: 190px;
+    }
+}

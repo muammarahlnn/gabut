@@ -1,0 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+}
+/*== content ============================*/
+#content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#num-lot {
+    text-align: center;
+    border: 3px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    display: inline;
+    padding: 12px 17px;
+    background-color: black;
+}
+
+#btn-lot {
+    margin-top: 0;
+}
+
+#btn-clickme, #btn-random {
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: transparent;
+    color: rgb(24, 23, 23);
+    font-weight: bold;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 15px;
+    padding: 5px 25px;
+    box-shadow: 0 6px rgb(27, 27, 27);
+    display: inline-block;
+}
+.button:hover {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.button:active {
+    position: relative;
+    box-shadow: none;
+    top: 6px;
+}
+
+.footer {
+    background-color: #000;
+}

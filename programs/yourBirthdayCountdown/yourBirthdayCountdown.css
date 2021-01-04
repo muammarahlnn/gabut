@@ -1,0 +1,29 @@
+body {
+    background-image: url(../../img/birthday-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+#content {
+    height: 110vh;
+    width: 70%;
+}
+
+.form {
+    margin-top: 8vh;
+    padding-left: 25%;
+}
+
+.btn-primary {
+    margin: 3vh 47%;
+}
+
+.box {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.timer {
+    font-weight: bold;
+}

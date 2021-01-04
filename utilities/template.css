@@ -1,0 +1,68 @@
+/*-- header ---------------------*/
+.header-scrolled {
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    width: 100%;
+    transition: 1.2s;
+}
+.header-onTop{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid white;
+    border-radius: 50%;
+    width: 12rem;
+    transition: 1.2s;
+}
+.header
+a {
+    padding: 0 25px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-shadow:
+       3px  3px 0 white,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+      -1px  1px 0 white,
+       1px  1px 0 white;
+}
+
+
+/*-- footer ---------------------*/
+.footer {
+    padding-bottom: 20px;
+}
+
+.footer
+.reachMe {
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.footer
+.reachMe
+.icon 
+i{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.footer
+hr {
+    border-color: white;
+    width: 500px;
+    border-width: 2px;
+}
