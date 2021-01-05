@@ -6,10 +6,15 @@ $(document).ready(function () {
     let score = 0;
     let isStart = false;
 
+    // lompat
     $(document).keydown(function(e){
         if (e.which == 38 || e.which == 32 ) {
             jump();
         }
+    });
+
+    $(document).on('click touchstart', () => {
+        jump();
     });
 
     $(window).keydown(function (e) { 
