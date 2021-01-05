@@ -6,13 +6,14 @@ $(document).ready(function () {
     let score = 0;
     let isStart = false;
 
-    // lompat
+    // jump on pc
     $(document).keydown(function(e){
         if (e.which == 38 || e.which == 32 ) {
             jump();
         }
     });
 
+    // jump on mobile
     $(document).on('click touchstart', () => {
         jump();
     });
