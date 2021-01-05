@@ -2,8 +2,10 @@ $(document).ready(function () {
     let nextBirthday = "";
     $(".btn-primary").click(function (e) { 
         const name = $('#input-name').val();
+
         // dob = [year, month, day]
         const dob = $('#input-date').val().split('-');
+        
         // dateNow = [month, day, year]
         const dateNow = new Date().toLocaleDateString().split('/');
         
@@ -87,7 +89,7 @@ $(document).ready(function () {
         ];
         let ans = arrDate[2] + " ";
         ans += months[arrDate[1]-1] + " ";
-        ans += new Date().getFullYear() + 1 + " ";
+        ans += new Date().getFullYear() + " ";
         ans += "00:00:00";
         return ans;
     }
